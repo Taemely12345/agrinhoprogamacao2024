@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #F0F8F0; /* Fundo suave para refletir o tema de jardinagem */
+}
+
+.cabecalho {
+    background-color: #66BB6A; /* Verde suave associado a plantas */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid #388E3C; /* Linha verde mais escura para um toque adicional */
+}
+
+.cabecalho-logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.cabecalho-titulo {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.horta, .beneficios {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px; /* Limitar a largura para melhor visualização em telas grandes */
+    margin: 0 auto; /* Centralizar o conteúdo */
+    background-color: #FFFFFF; /* Fundo branco para destacar o texto */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+}
+
+.horta h2, .beneficios h2 {
+    color: #66BB6A; /* Verde suave para títulos */
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.horta p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.imagem-horta {
+    width: 250px; /* Tamanho da imagem ajustado para melhor visibilidade */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+    margin-top: 10px;
+}
+
+.beneficios ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.beneficios li {
+    margin: 20px 0;
+    text-align: left;
+    padding: 10px;
+    background-color: #E8F5E9; /* Fundo verde claro para os itens da lista */
+    border-radius: 5px; /* Bordas arredondadas para os itens da lista */
+}
+
+.beneficios p {
+    margin: 5px 0 0 0;
+    line-height: 1.5;
+}
+
+.rodape {
+    background-color: #66BB6A; /* Verde suave para o rodapé */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
